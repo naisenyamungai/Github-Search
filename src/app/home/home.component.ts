@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
-import { ObjectUnsubscribedError } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -9,12 +8,17 @@ import { ObjectUnsubscribedError } from 'rxjs';
 })
 export class HomeComponent implements OnInit {
 
-  ProfileInfo:Object;
 
-  constructor(private data: DataService) { }
+  // ProfileInfo:Object;
+
+  constructor(private data: DataService) { 
+    this.data.getProfileInfo().subscribe(profile =>{
+      console.log(profile);
+    });
+  }
 
   ngOnInit() {
-    this.data.getProfileInfo()
+    
   }
 
 }
