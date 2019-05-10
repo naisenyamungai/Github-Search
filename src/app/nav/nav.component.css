@@ -1,12 +1,15 @@
 header {
-    background:lightskyblue;
+    background:black;
     margin-top:2px;
+    color:white;
   }
   header .logo {
     font-weight: bold;
+
   }
   header nav {
     justify-self: right;
+    background:black;
   }
   header nav ul {
     list-style-type: none;
@@ -22,5 +25,5 @@ header {
     font-size: 0.8em;
   }
   header nav ul li a:hover {
-    background: black;
+    background: blue;
   }
