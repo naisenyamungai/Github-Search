@@ -1,3 +1,27 @@
 h1{
   color:black;
 }
+
+.git{
+  color:black;
+  background-color:pink;
+ 
+}
+
+.panel-heading{
+  font-size:28px;
+  height:70px;
+}
+
+.panel-heading p{
+  margin-left:30px;
+}
+
+img{
+  margin-left:15px;
+}
+
+span .empty{
+  padding:10px;
+}
+

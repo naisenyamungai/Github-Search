@@ -1,1 +1,39 @@
 <h1>HOME WORKS</h1>
+
+
+<br>
+<div class="git">
+    <div *ngIf="profile">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>{{profile.name}}</p>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="">
+                    </div>
+                
+                    <div class="col-sm-5">
+                        <ul class="list-group">
+                            <li class="list-group-item" *ngIf="profile.bio">{{profile.bio}}</li>
+                            <li class="list-group-item" *ngIf="profile.email">{{profile.email}}</li>
+                            <li class="list-group-item" *ngIf="profile.html_url"><a href="{{profile.html_url}}" target="_blank">{{profile.html_url}}</a></li>
+                            <li class="list-group-item" *ngIf="profile.location">{{profile.location}}</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <div>
+                            <p>
+                                <span class="label label-default">{{profile.public_gists}} Public gists</span>
+                                <span class="empty"></span>
+                                <span class="label label-default">{{profile.public_repos}} Public Repos</span>
+                            </p>
+                            <p><a href="{{profile.html_url}}" target="_blank" class="btn btn-success btn-lg">View Profile on GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
