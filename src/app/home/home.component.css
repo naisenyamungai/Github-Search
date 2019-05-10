@@ -5,6 +5,7 @@ h1{
 .git{
   color:black;
   background-color:pink;
+  margin-top:50px;
  
 }
 
@@ -25,3 +26,15 @@ span .empty{
   padding:10px;
 }
 
+#repo{
+  margin-top:50px;
+}
+
+#repo h1{
+  text-align:center;
+  font-size:30px;
+}
+
+.search-form{
+  margin-top:30px;
+}

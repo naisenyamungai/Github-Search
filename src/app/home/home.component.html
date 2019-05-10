@@ -1,7 +1,8 @@
-<h1>HOME WORKS</h1>
-
-
-<br>
+<form action="" class="search-form">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="search git users with username" [(ngModel)]="username" name="username" (keyup)="findProfile()">
+    </div>
+</form>
 <div class="git">
     <div *ngIf="profile">
         <div class="panel panel-default">
@@ -11,7 +12,7 @@
             <div class="panel-body">
                 <div class="row">
                     <div class="col-sm-3">
-                        <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="">
+                        <img src="{{profile.avatar_url}}" class="rounded-circle img-fluid" alt="">
                     </div>
                 
                     <div class="col-sm-5">
@@ -33,6 +34,18 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div id="repo" class="panel-heading">
+                <h1 class="panel-title"><em>REPOSITORIES</em></h1>     
+            </div>
+
+            <div class="panel-body" *ngFor="let repo of repos">
+                <h1><strong>Name: {{repo.name}}</strong></h1>
+                <p>Description: {{repo.description}}</p>
+                <p><a href="{{repo.html_url}}" class="btn btn-lg btn-warning pull-right" >View this Project on Github</a></p>
+                
             </div>
         </div>
     </div>
