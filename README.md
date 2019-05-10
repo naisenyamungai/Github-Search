@@ -1,27 +1,59 @@
-# GithubSearch
+## Project Name
+           Github-Search
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+## Author
+            [Naisenya Mungai](https://github.com/naisenyamungai)
+            Student - Full Stack Developer(Java & Android) 
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Project Description
+> A website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
 
-## Code scaffolding
+## Project Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+| Behavior        | Input           | Outcome  |
+| ------------- |:-------------:| -----:|
+| User types a github username, fills the username| submit it | Name of person appears |
+| User types a github username, fills the username | Click repositories | description of the repos appears |
+| User types a github repos, fills the repo name  | submit it | description of the repos appearsd |
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Technologies Used
+>The application was created using below technologies;
+>- AngularJS
+>- HTML
+>- CSS
+>- BootStrap
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Known Bugs
+> No known Bugs at the moment
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## SetUp Instructions
+> Internet Connection is required for the following instructions to be executed
+>- Open Chrome, Mozilla or any browser in your disposal.
+>- Internet Connection is a must.
+>- Search naisenyamungai on github.
+>- Search on the active link on Github user name.
+>- No other downloads or plug-ins are required.
+>- Type in the github username, see details appear.
+>- For any feedback on bugs and errors contact naisenyamungai@gmail.com or 0721635386.
+>- Alternatively you can clone the project onto your local machine to have a sneak peak at the code used.
 
-## Further help
+##  Requirements:
+>- A website where users may enter a GitHub username into a form
+>- Submit it
+>- see names and descriptions of that person's public repositories
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Support and contact details
+> naisenyamungai@gmail.com
+
+## To access this webpage open below link
+> https://github.com/naisenyamungai/Github-Search/
+
+## [License](https://github.com/naisenyamungai/Github-Search/LICENSE.md)
+
+MIT © [Naisenya Mungai ](https://github.com/naisenyamungai)
+
