@@ -1,6 +1,6 @@
 <form action="" class="search-form">
     <div class="form-group">
-        <input type="text" class="form-control" placeholder="search git users with username" [(ngModel)]="username" name="username" (keyup)="findProfile()">
+        <input id="searchName" type="text" class="form-control" placeholder="search git users with username" [(ngModel)]="username" name="username" (keyup)="findProfile()">
     </div>
 </form>
 <div class="git">
@@ -36,6 +36,7 @@
                 </div>
             </div>
         </div>
+        <hr>
         <div class="panel panel-default">
             <div id="repo" class="panel-heading">
                 <h1 class="panel-title"><em>REPOSITORIES</em></h1>     
