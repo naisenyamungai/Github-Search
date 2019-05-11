@@ -2,28 +2,52 @@ header {
     background:black;
     margin-top:2px;
     color:white;
+    height:150px;
+    font-family: 'ZCOOL XiaoWei', serif;
   }
-  header .logo {
-    font-weight: bold;
 
+  .navigation a{
+    color: white;
   }
-  header nav {
-    justify-self: right;
+  /* header .logo {
+    font-weight: bold;
+  } */
+
+  #logo{
+    padding:0px;
+    font-weight: bold;
+    margin-top:40px;
+    font-size:35px;
+  }
+
+  .navigation{
+    margin-left:200px;
+    width: 80%;
+  }
+  /* header nav {
+    justify-self: right; 
     background:black;
+  } */
+  nav{
+    margin-top:50px;
   }
+
   header nav ul {
     list-style-type: none;
+   
     margin: 0;
     padding: 0;
   }
   header nav ul li {
     float: left;
   }
+
   header nav ul li a {
-    padding: 1.5em;
+    padding: 1em;
     text-transform: uppercase;
-    font-size: 0.8em;
-  }
+    font-size: 25px;
+  } 
   header nav ul li a:hover {
-    background: blue;
+    background: grey;
   }
+  

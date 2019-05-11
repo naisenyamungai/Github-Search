@@ -1,3 +1,7 @@
+body{
+  font-family: 'ZCOOL XiaoWei', serif; 
+}
+
 h1{
   color:black;
 }
@@ -49,6 +53,7 @@ span .empty{
 
 #searchName{
   font-size:28px;
+  font-family: 'ZCOOL XiaoWei', serif;
 }
 
 .myCard{

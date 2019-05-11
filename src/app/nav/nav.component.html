@@ -1,12 +1,18 @@
 <header>
-  <div class="container">
-    <a routerLink="/" class="logo">{{appTitle}}</a>
-    <nav>
-      <ul>
-        <li><a routerLink="/">Home</a></li>
-        <li><a routerLink="/about">About</a></li>
-        <li><a routerLink="/contact">Contact us</a></li>
-      </ul>
-    </nav>
+  <div class="navigation">
+    <div class="row">
+      <div class="col-md-4" id="logo">
+        <a routerLink="/">{{appTitle}}</a>
+      </div>
+      <div class="col-md-8">
+        <nav>
+          <ul>
+            <li><a routerLink="/">Home</a></li>
+            <li><a routerLink="/about">About</a></li>
+            <li><a routerLink="/contact">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div> 
   </div>
 </header>
