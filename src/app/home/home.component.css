@@ -1,10 +1,3 @@
-body{
-  background-image:url(/images/blackwaterdrops.jpg);
-  background-repeat:repeat;
-  background-size:cover;
-  height:100%;
-}
-
 h1{
   color:black;
 }
@@ -15,12 +8,12 @@ h1{
  
 }
 
-.panel-heading{
+#profileName{
   font-size:28px;
   height:70px;
 }
 
-.panel-heading p{
+#profileName p{
   margin-left:30px;
 }
 
@@ -32,8 +25,15 @@ span .empty{
   padding:10px;
 }
 
+#bioDetails{
+  margin-top:30px;
+} 
 
-#repo{
+#viewMore{
+  margin-top:60px;
+}
+
+.myRepo{
   margin-top:50px;
 }
 
@@ -50,4 +50,18 @@ span .empty{
 #searchName{
   font-size:28px;
 }
+
+.myCard{
+  margin-top:30px;
+}
+
+.card{
+  margin-bottom:50px;
+}
+
+#cardHeader h1{
+  text-align:center;
+}
+
+
 
