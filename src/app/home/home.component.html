@@ -24,8 +24,7 @@
                                     <li class="list-group-item" *ngIf="profile.email">{{profile.email}}</li>
                                     <li class="list-group-item" *ngIf="profile.html_url"><a href="{{profile.html_url}}" target="_blank">{{profile.html_url}}</a></li>
                                     <li class="list-group-item" *ngIf="profile.location">{{profile.location}}</li>
-                                    <li class="list-group-item" *ngIf="profile.created_at">Joined {{profile.created_at | dateCount }} days ago</li>
-                                    <li class="list-group-item" *ngIf="profile.created_at">Joined {{profile.created_at | date }} days ago</li>
+                                    <li class="list-group-item" *ngIf="profile.created_at">Joined Github: {{profile.created_at | dateCount}}</li>
                                 </ul>
                             </div> 
                             

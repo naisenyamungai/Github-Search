@@ -6,6 +6,7 @@ export class User {
         public bio:string,
         public html_url:string,
         public location:string,
+        public created_at:string,
     ){
   }
 }
