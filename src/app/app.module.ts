@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpModule } from '@ngx-progressbar/http';
 import { DataService } from './data.service';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DataService } from './data.service';
     HomeComponent,
     ContactComponent,
     SearchComponent,
-    AboutComponent
+    AboutComponent,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
