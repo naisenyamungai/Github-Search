@@ -69,5 +69,15 @@ span .empty{
   text-align:center;
 }
 
+#highlight p{
+  color:white;
+  font-size:16px;
+  
+}
+
+#repoUrl p{
+  font-size:18px;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
 
 

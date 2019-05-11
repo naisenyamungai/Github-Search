@@ -9,7 +9,7 @@
             <div class="userDetails">
                 <div class="card">
                     <div class="card-header" id="profileName">
-                        <p>{{profile.name}}</p>
+                        <p><strong>{{profile.name}}</strong></p>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -64,13 +64,20 @@
             <div class="myCard">    
                 <div class="card" *ngFor="let repo of repos">
                     <div class="card-header" id="cardHeader">
-                        <h1>Title: {{repo.name}}</h1>
+                        <h1><strong>Title: {{repo.name}}</strong></h1>
                     </div>
                     <div class="card-body">
                         <p>{{repo.description}}</p>
                     </div>
                     <div class="card-footer">
-                        <p><a href="{{repo.html_url}}" class="btn btn-lg btn-warning pull-right" >View this Project on Github</a></p>
+                        <div class="row">
+                            <div class="col-md-4" id="highlight">
+                                <p appHighlight>Created: {{repo.created_at | date:'longDate'}}</p>
+                            </div>
+                            <div class="col-md-8" id="repoUrl">
+                                <p><a href="{{repo.html_url}}" class="btn btn-lg btn-warning pull-right" >View this Project on Github</a></p>
+                            </div>
+                        </div>                       
                     </div>
                 </div>
             </div>
