@@ -16,6 +16,7 @@ import { NgProgressHttpModule } from '@ngx-progressbar/http';
 import { DataService } from './data.service';
 import { DateCountPipe } from './date-count.pipe';
 import { HighlightDirective } from './highlight.directive';
+import { BackgroundDirective } from './background.directive';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HighlightDirective } from './highlight.directive';
     SearchComponent,
     AboutComponent,
     DateCountPipe,
-    HighlightDirective
+    HighlightDirective,
+    BackgroundDirective
   ],
   imports: [
     BrowserModule,
